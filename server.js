@@ -84,7 +84,7 @@ app.post('/api/submit-form', async (req, res) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'UrbanScale Website <onboarding@resend.dev>', // swap for your own verified domain later
+        from: 'UrbanScale Solutions <notifications@urbanscalesolutions.co.uk>',
         to: [process.env.NOTIFY_EMAIL],
         reply_to: clean.email,
         subject,
